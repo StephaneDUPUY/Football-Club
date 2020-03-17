@@ -33,8 +33,13 @@
         <p>Âge de l'enfant : <?=$age?></p>
         <!-- display category -->
         <h3>Catégorie : <?=$category?></h3>
-        <?php
+
+            <!-- if it's the first time opeing page - no data -->
+            <?php else: ?>
+                <p>Veuillez indiquer l'âge de votre enfant</p>
+            <?php
             endif;
+
         ?>
 
         <form action="index.php" method="get">
