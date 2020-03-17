@@ -42,8 +42,6 @@
             <input type="number" name="age" id="age" value="<?=@$age?>"> <!-- @ for no error message -->
             <button type="submit">Calculer</button>
         </form>
-        <p>Âge de l'enfant : <?=$age?></p>
-        <h3>Catégorie : <?=$category?></h3>
 
     </body>
 </html>
